@@ -18,8 +18,8 @@ const options = {
 	},
 	body: new URLSearchParams({
 		q: `${textarea.value}`,
-		target: 'hi',
-		source: 'en'
+		target: `${to_translate.value}`,
+		source: `${translate_from.value}`
 	})
 };
 
