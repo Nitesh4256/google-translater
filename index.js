@@ -1,7 +1,7 @@
 textarea = document.getElementById("textarea");
 translate = document.getElementById("translate");
 translater_box = document.getElementById('translater_box')
-console.log(to_translate.value)
+
 
 const translater = ()=>{ 
 
