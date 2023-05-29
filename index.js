@@ -44,6 +44,9 @@ translater_box.innerHTML =  response.data.translations[0].translatedText;
 translate.addEventListener("click", ()=>{
 
     translater()
+	
+	English.innerHTML = translate_from.value;
+	Hindi.innerHTML = to_translate.value;
 English.style.display ='block'
 Hindi.style.display ='block'
 
